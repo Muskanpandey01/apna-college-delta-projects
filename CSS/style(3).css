@@ -1,0 +1,88 @@
+/* h2 {
+    color: red;
+    font-family: Georgia;
+    margin-left: 30px;
+    margin-top: 5px;
+    text-transform: uppercase;
+    padding: 20px;
+}
+
+button {
+    color: white;
+    background-color: red;
+}
+
+div {
+    text-align: center;
+    font-size: large;
+    color: white;
+    margin-top: 100px;
+   font-family:  Arial;
+   font-weight: bold;
+   font-size: 22px;
+
+}
+
+div {
+    text-align: center;
+    margin-top: 20px;
+}
+
+body {
+     margin:0;
+}
+.top-right{
+    position: absolute;
+    top: 0px;
+    right: 20px;
+}
+
+
+.email-box input,.email-box button{
+    height: 40px;
+}
+
+body {
+    background-image: url(netflix.jpg);
+    background-size: cover;
+} */
+
+#container {
+    height: 600px;
+    width: 60%;
+    background-color: azure;
+    margin: 10px auto;
+    border: 2px solid black;
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    /* flex-wrap: wrap;   */
+    /* align-items: baseline; */
+    align-content: flex-start;
+}
+
+#org {
+    align-self: flex-start;
+    /* flex-basis: 50px; */
+    /* flex-grow: 1; */
+    flex: 2 2 100px;
+}
+
+#blue {
+    /* flex-basis: 400px; */
+    /* flex-grow: 2; */
+    max-width: 400px;
+    flex-shrink: 1;
+}
+
+h1 {
+    text-align: center;
+}
+
+#container div {
+    height: 100px;
+    width: 300px;
+    color: white;
+    text-align: center;
+    font-size: 1.5em;
+}

@@ -1,0 +1,19 @@
+p + h3{
+    text-decoration: underline;
+}
+
+.upvote + button {
+    background-color: blue;
+}
+
+div > input {
+    background-color: pink;
+}
+
+input[type="text"] {
+    color:red;
+}
+
+input[type="password"] {
+    color: green;
+}
